@@ -1,10 +1,15 @@
-const CACHE_NAME = 'lista-compras-v1';
+const CACHE_NAME = 'lista-compras-v2';
 const ASSETS = [
-  '/',
-  '/index.html',
-  '/styles.css',
-  '/app.js',
-  '/groceries.png'
+//   '/',
+//   '/index.html',
+//   '/styles.css',
+//   '/app.js',
+//   '/groceries.png'
+  '/whattobuy/',
+  '/whattobuy/index.html',
+  '/whattobuy/styles.css',
+  '/whattobuy/app.js',
+  '/whattobuy/groceries.png'
 ];
 
 self.addEventListener('install', (event) => {
